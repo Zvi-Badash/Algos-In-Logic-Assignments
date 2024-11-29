@@ -1,0 +1,24 @@
+{
+    "teachers": [
+        {"name": "T1", "subjects": ["Math", "Physics"]},
+        {"name": "T2", "subjects": ["Biology", "Chemistry", "Math"]},
+        {"name": "T3", "subjects": ["Physics", "Computer Science", "English"]},
+        {"name": "T4", "subjects": ["History", "Math", "English"]},
+        {"name": "T5", "subjects": ["Chemistry", "Physics"]},
+        {"name": "T6", "subjects": ["Biology", "History", "Art"]},
+        {"name": "T7", "subjects": ["Computer Science", "Physics", "Math"]},
+        {"name": "T8", "subjects": ["Art", "English", "History"]},
+        {"name": "T9", "subjects": ["Music", "Biology", "Math"]},
+        {"name": "T10", "subjects": ["Physics", "Music", "Art"]},
+        {"name": "T11", "subjects": ["History", "Math", "Physics"]},
+        {"name": "T12", "subjects": ["Biology", "Computer Science", "Art"]},
+        {"name": "T13", "subjects": ["English", "Music", "Biology"]},
+        {"name": "T14", "subjects": ["Math", "Computer Science", "Chemistry"]},
+        {"name": "T15", "subjects": ["Physics", "History", "Music"]}
+    ],
+    "subjects": [
+        "Math", "Physics", "Biology", "Chemistry", "Computer Science", 
+        "English", "History", "Art", "Music"
+    ],
+    "k": 2
+}

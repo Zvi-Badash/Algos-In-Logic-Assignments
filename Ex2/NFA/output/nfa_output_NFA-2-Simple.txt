@@ -1,0 +1,16 @@
+(even_0) ∧
+(-even_0 ∨ odd_1) ∧
+(-odd_0 ∨ even_1) ∧
+(-even_1 ∨ odd_2) ∧
+(-odd_1 ∨ even_2) ∧
+(-even_2 ∨ odd_3) ∧
+(-odd_2 ∨ even_3) ∧
+(even_0 ∨ odd_0) ∧
+(-even_0 ∨ -odd_0) ∧
+(even_1 ∨ odd_1) ∧
+(-even_1 ∨ -odd_1) ∧
+(even_2 ∨ odd_2) ∧
+(-even_2 ∨ -odd_2) ∧
+(even_3 ∨ odd_3) ∧
+(-even_3 ∨ -odd_3) ∧
+(even_3)

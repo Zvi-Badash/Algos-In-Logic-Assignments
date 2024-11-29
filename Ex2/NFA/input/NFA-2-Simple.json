@@ -1,0 +1,17 @@
+{
+    "nfa": {
+        "states": ["even", "odd"],
+        "alphabet": ["a"],
+        "transitions": {
+            "even": {
+                "a": ["odd"]
+            },
+            "odd": {
+                "a": ["even"]
+            }
+        },
+        "initial_states": ["even"],
+        "final_states": ["even"]
+    },
+    "input_string": "aaa"
+}

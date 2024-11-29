@@ -1,0 +1,27 @@
+{
+    "nfa": {
+        "states": ["even-even", "even-odd", "odd-even", "odd-odd"],
+        "alphabet": ["a", "b"],
+        "transitions": {
+            "even-even": {
+                "a": ["odd-even"],
+                "b": ["even-odd"]
+            },
+            "even-odd": {
+                "a": ["odd-odd"],
+                "b": ["even-even"]
+            },
+            "odd-even": {
+                "a": ["even-even"],
+                "b": ["odd-odd"]
+            },
+            "odd-odd": {
+                "a": ["even-odd"],
+                "b": ["odd-even"]
+            }
+        },
+        "initial_states": ["even-even"],
+        "final_states": ["even-even"]
+    },
+    "input_string": "aaaaaaaabbbabbabbbbbababababbababababbbababababbabababababba"
+}
